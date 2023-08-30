@@ -1,0 +1,46 @@
+diff --git a/backend/qemu.pm b/backend/qemu.pm
+index 4d9bd36..40f06d1 100644
+--- a/backend/qemu.pm
++++ b/backend/qemu.pm
+@@ -679,11 +679,11 @@ sub start_qemu ($self) {
+     }
+ 
+     foreach my $attribute (qw(BIOS KERNEL INITRD)) {
+-        if ($vars->{$attribute} && $vars->{$attribute} !~ /^\//) {
+-            # Non-absolute paths are assumed relative to /usr/share/qemu
+-            $vars->{$attribute} = '/usr/share/qemu/' . $vars->{$attribute};
++        if ($vars->{$attribute} && $vars->{$attribute} ne "none" && $vars->{$attribute} !~ /^\//) {
++            # Non-absolute paths are assumed relative to /var/lib/openqa/share/factory/other/
++            $vars->{$attribute} = '/var/lib/openqa/share/factory/other/' . $vars->{$attribute};
+         }
+-        if ($vars->{$attribute} && !-e $vars->{$attribute}) {
++        if ($vars->{$attribute} && $vars->{$attribute} ne "none" && !-e $vars->{$attribute}) {
+             die "'$vars->{$attribute}' missing, check $attribute\n";
+         }
+     }
+@@ -746,6 +746,7 @@ sub start_qemu ($self) {
+     $arch = 'arm' if ($arch =~ /armv6|armv7/);
+     my $is_arm = $arch eq 'aarch64' || $arch eq 'arm';
+     my $is_s390x = $arch eq 's390x';
++    my $is_riscv = $arch eq 'riscv64';
+ 
+     $self->_set_graphics_backend($is_arm);
+ 
+@@ -754,7 +755,7 @@ sub start_qemu ($self) {
+     my $use_usb_kbd;
+     my $use_virtio_kbd;
+ 
+-    if ($is_arm) {
++    if ($is_arm || $is_riscv) {
+         $arch_supports_boot_order = 0;
+         $use_usb_kbd = 1;
+     }
+@@ -869,7 +870,7 @@ sub start_qemu ($self) {
+     }
+     {
+         # Remove floppy drive device on architectures
+-        sp('global', 'isa-fdc.fdtypeA=none') unless ($is_arm || $is_s390x || $vars->{QEMU_NO_FDC_SET});
++        sp('global', 'isa-fdc.fdtypeA=none') unless ($is_arm || $is_s390x || $is_riscv || $vars->{QEMU_NO_FDC_SET});
+ 
+         sp('m', $vars->{QEMURAM}) if $vars->{QEMURAM};
+         sp('machine', $vars->{QEMUMACHINE}) if $vars->{QEMUMACHINE};
