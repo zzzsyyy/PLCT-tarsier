@@ -50,7 +50,7 @@
     [tests #16](https://gitee.com/lvxiaoqian/os-autoinst-distri-openeuler/pulls/16), 
     [needle #16](https://gitee.com/lvxiaoqian/os-autoinst-needles-openeuler/pulls/16)
 
-    [tests #19](https://gitee.com/lvxiaoqian/os-autoinst-distri-openeuler/pulls/19) (Open)
+    [tests #19](https://gitee.com/lvxiaoqian/os-autoinst-distri-openeuler/pulls/19)
 
 + ADD cases
 
@@ -64,7 +64,7 @@
     [needle #15](https://gitee.com/lvxiaoqian/os-autoinst-needles-openeuler/pulls/15)
 
     [tests #18](https://gitee.com/lvxiaoqian/os-autoinst-distri-openeuler/pulls/18), 
-    [needle #18](https://gitee.com/lvxiaoqian/os-autoinst-needles-openeuler/pulls/18) (Open)
+    [needle #18](https://gitee.com/lvxiaoqian/os-autoinst-needles-openeuler/pulls/18)
 
 
 ## Issues
