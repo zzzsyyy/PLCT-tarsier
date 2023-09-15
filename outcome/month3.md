@@ -25,16 +25,36 @@
 
 ### Week 2
 
-+ [ ] use remote links
-+ [ ] test other lib func
++ [x] use remote links
++ [x] test other lib func
++ [x] adapt `oerv` lib
 
     + function
-        + [ ] LTP (WIP)
-        + [ ] mugen (suspend)
+        + [x] LTP (consume long time more than 12 hour)
+        + [ ] mugen (WIP)
 
 ## Pull Requests
 
+https://gitee.com/yan-mingzhu/os-autoinst-distri-openeuler/pulls/1
 
+
+### Week 3
+
++ [ ] upload logs when test failed
++ [ ] use remote mathine to run test?
+
++ [ ] mugen
 
 ## Issues
 
++ [ ] `process.py` failed to run in `fio` test case
+
++ [ ] `clang` failed to run in `csmith` test case
+
+## RESULTS
+
++ Success: `fio`, `lib_micro`, `yarpgen`
+
++ partial success: `gcc` in `csimth`
+
++ no enough time to finish test : `LTP`, `anghaBench`, `dejagnu`
