@@ -35,21 +35,21 @@
 
 #### Results
 
-    + csmith: [make_log](./res/csmith-make_2023-09-18.log)   [log](./res/csmith-2023-09-18.log)
++ csmith: [make_log](./res/csmith-make_2023-09-18.log) ;  [log](./res/csmith-2023-09-18.log)
 
-    + lib_micro: [log](./res/lib_micro-2023-09-13.log)
++ lib_micro: [log](./res/lib_micro-2023-09-13.log)
 
-        ![lib_micro](./res/截图%202023-09-18%2018-49-31.png)
+    ![lib_micro](./res/截图%202023-09-18%2018-49-31.png)
 
-    + yarpgen: [make_log](./res/yarpgen-make_2023-09-15.log)   [log](./res/yarpgen-2023-09-15.log)
-  
-    + fio: [log](./res/fio-2023-09-18.log)   [result_csv](./res/fio-2023-09-18.csv)
++ yarpgen: [make_log](./res/yarpgen-make_2023-09-15.log) ;  [log](./res/yarpgen-2023-09-15.log)
 
-    + LTP: test not finished
++ fio: [log](./res/fio-2023-09-18.log) ;  [result_csv](./res/fio-2023-09-18.csv)
 
-        ![LTP1](./res/粘贴的图像.png)
++ LTP: test not finished
 
-        ![LTP2](./res/截图%202023-09-18%2018-51-34.png)
+    ![LTP1](./res/粘贴的图像.png)
+
+    ![LTP2](./res/截图%202023-09-18%2018-51-34.png)
 
 ## Pull Requests
 
