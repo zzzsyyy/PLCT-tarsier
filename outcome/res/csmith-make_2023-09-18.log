@@ -1,0 +1,37 @@
+Consolidate compiler generated dependencies of target libcsmith_a
+[  2%] Built target libcsmith_a
+Consolidate compiler generated dependencies of target libcsmith_so
+[  5%] Built target libcsmith_so
+[  8%] Built target headers
+Consolidate compiler generated dependencies of target csmith
+[100%] Built target csmith
+Install the project...
+-- Install configuration: ""
+-- Installing: /usr/local/share/doc/csmith/probabilities.txt
+-- Installing: /usr/local/lib/libcsmith.a
+-- Installing: /usr/local/lib/libcsmith.so.0.0.0
+-- Installing: /usr/local/lib/libcsmith.so.0
+-- Installing: /usr/local/lib/libcsmith.so
+-- Installing: /usr/local/include/csmith.h
+-- Installing: /usr/local/include/csmith_minimal.h
+-- Installing: /usr/local/include/custom_limits.h
+-- Installing: /usr/local/include/custom_stdint_x86.h
+-- Installing: /usr/local/include/platform_avr.h
+-- Installing: /usr/local/include/platform_generic.h
+-- Installing: /usr/local/include/platform_msp430.h
+-- Installing: /usr/local/include/random_inc.h
+-- Installing: /usr/local/include/safe_abbrev.h
+-- Installing: /usr/local/include/stdint_avr.h
+-- Installing: /usr/local/include/stdint_ia32.h
+-- Installing: /usr/local/include/stdint_ia64.h
+-- Installing: /usr/local/include/stdint_msp430.h
+-- Installing: /usr/local/include/volatile_runtime.c
+-- Installing: /usr/local/include/volatile_runtime.h
+-- Installing: /usr/local/include/safe_math.h
+-- Installing: /usr/local/include/safe_math_macros.h
+-- Installing: /usr/local/include/safe_math_macros_notmp.h
+-- Installing: /usr/local/include/windows/stdint.h
+-- Installing: /usr/local/bin/compiler_test.in
+-- Installing: /usr/local/bin/compiler_test.pl
+-- Installing: /usr/local/bin/launchn.pl
+-- Installing: /usr/local/bin/csmith

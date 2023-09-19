@@ -1,0 +1,30 @@
+[  8%] Building CXX object src/CMakeFiles/yarpgen_lib.dir/data.cpp.o
+[  8%] Building CXX object src/CMakeFiles/yarpgen_lib.dir/context.cpp.o
+[ 12%] Building CXX object src/CMakeFiles/yarpgen_lib.dir/emit_policy.cpp.o
+[ 16%] Building CXX object src/CMakeFiles/yarpgen_lib.dir/expr.cpp.o
+[ 20%] Building CXX object src/CMakeFiles/yarpgen_lib.dir/gen_policy.cpp.o
+[ 25%] Building CXX object src/CMakeFiles/yarpgen_lib.dir/hash.cpp.o
+[ 29%] Building CXX object src/CMakeFiles/yarpgen_lib.dir/ir_value.cpp.o
+[ 33%] Building CXX object src/CMakeFiles/yarpgen_lib.dir/options.cpp.o
+[ 37%] Building CXX object src/CMakeFiles/yarpgen_lib.dir/program.cpp.o
+[ 41%] Building CXX object src/CMakeFiles/yarpgen_lib.dir/statistics.cpp.o
+[ 45%] Building CXX object src/CMakeFiles/yarpgen_lib.dir/stmt.cpp.o
+[ 50%] Building CXX object src/CMakeFiles/yarpgen_lib.dir/type.cpp.o
+[ 54%] Building CXX object src/CMakeFiles/yarpgen_lib.dir/utils.cpp.o
+[ 58%] Linking CXX static library libyarpgen_lib.a
+[ 58%] Built target yarpgen_lib
+[ 62%] Building CXX object src/CMakeFiles/yarpgen.dir/main.cpp.o
+[ 66%] Building CXX object src/CMakeFiles/type_test.dir/type_test.cpp.o
+[ 70%] Building CXX object src/CMakeFiles/expr_test.dir/expr_test.cpp.o
+[ 75%] Building CXX object src/CMakeFiles/data_test.dir/data_test.cpp.o
+[ 79%] Linking CXX executable ../expr_test
+[ 79%] Built target expr_test
+[ 83%] Building CXX object src/CMakeFiles/gen_test.dir/gen_test.cpp.o
+[ 87%] Linking CXX executable ../yarpgen
+[ 87%] Built target yarpgen
+[ 91%] Linking CXX executable ../data_test
+[ 91%] Built target data_test
+[ 95%] Linking CXX executable ../gen_test
+[ 95%] Built target gen_test
+[100%] Linking CXX executable ../type_test
+[100%] Built target type_test
