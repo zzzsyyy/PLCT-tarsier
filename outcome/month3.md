@@ -7,7 +7,7 @@ https://gitee.com/yan-mingzhu/os-autoinst-distri-openeuler/pulls/1
 
 https://gitee.com/yunxiangluo/open-euler-risc-v-23.09-test/pulls/55
 
-
+https://gitee.com/yan-mingzhu/os-autoinst-distri-openeuler/pulls/2
 
 ## Issues
 
