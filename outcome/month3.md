@@ -1,5 +1,9 @@
 # Month 3
 
++ [x] port some tests to openQA
++ [x] adapt some mugen test suite
++ [x] fix some script to test
+
 ## Pull Requests
 
 
@@ -9,16 +13,25 @@ https://gitee.com/yunxiangluo/open-euler-risc-v-23.09-test/pulls/55
 
 https://gitee.com/yan-mingzhu/os-autoinst-distri-openeuler/pulls/2
 
-## Issues
+https://gitee.com/yan-mingzhu/os-autoinst-distri-openeuler/pulls/3
 
-+ [x] `process.py` failed to run in `fio` test case
+https://gitee.com/yunxiangluo/os-autoinst-distri-openeuler/pulls/2
 
-+ [x] `clang` failed to run in `csmith` test case
+Related files:
 
-## RESULTS
-
-+ Success: `fio`, `lib_micro`, `yarpgen`
-
-+ partial success: `gcc` in `csimth`
-
-+ no enough time to finish test : `LTP`, `anghaBench`, `dejagnu`
+```
+├── compiler
+│   ├── angha.pm
+│   ├── csmith.pm
+│   ├── dejagnu.pm
+│   └── yarpgen.pm
+├── function
+│   └── LTP.pm
+├── mugen
+│   ├── init_test.pm
+│   ├── run_test.pm
+│   └── wrapper_testsuite.pm
+└── performance
+    ├── fio.pm
+    └── lib_micro.pm
+```
